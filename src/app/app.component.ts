@@ -49,6 +49,7 @@ export class AppComponent {
       this.wasClicked = true;
       console.log("none");
       this.renderer.setElementStyle(this.el.nativeElement.children[0], 'visibility', 'hidden');
+      
     }
     else {
       this.color = "black";
